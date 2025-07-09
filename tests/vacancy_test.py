@@ -31,7 +31,7 @@ class TestVacancy(BaseTest):
         vacancy_name = f"Automation Tester For {today}"
         vacancy_page.fill_add_vacancy_form(
             vacancy_name=vacancy_name,
-            job_title="API Tester",
+            job_title="Automation Engineer",
             description="Automation Test Is Running",
             number_of_position="1",
             active=False,
