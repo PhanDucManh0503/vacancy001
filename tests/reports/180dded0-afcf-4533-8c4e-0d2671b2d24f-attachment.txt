@@ -1,0 +1,3 @@
+[INFO] Current user name: eslam rofa
+[INFO] Đã chọn Hiring Manager: eslam rofa
+[INFO] Đã set checkbox Active = False
