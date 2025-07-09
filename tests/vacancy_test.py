@@ -26,8 +26,6 @@ class TestVacancy(BaseTest):
             vacancy_page.is_add_vacancy_displayed()
         ), "Add Vacancy page không hiển thị"
 
-        current_user_name = vacancy_page.get_current_user_name()
-
         # Bước 5: Điền thông tin Vacancy
         today = datetime.date.today().strftime("%Y-%m-%d")
         vacancy_name = f"Automation Tester For {today}"
@@ -35,7 +33,6 @@ class TestVacancy(BaseTest):
             vacancy_name=vacancy_name,
             job_title="API Tester",
             description="Automation Test Is Running",
-            hiring_manager=current_user_name,
             number_of_position="1",
             active=False,
             publish_rss_webpage=True,

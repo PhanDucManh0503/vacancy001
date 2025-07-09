@@ -194,7 +194,6 @@ class Vacancies:
         vacancy_name,
         job_title,
         description,
-        hiring_manager,
         number_of_position,
         active=True,
         publish_rss_webpage=False,
